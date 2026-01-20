@@ -10,6 +10,7 @@ Practice doc to push & pull with in GitHub
 ```{r}
 library(tidyverse)
 ggplot(data = mtcars, aes(x=mpg)) +
-  geom_histogram(colour = "purple", fill = "white", bins = 15)
+  geom_histogram(colour = "purple", fill = "white", bins = 15) +
+  labs(x = "miles per gallon")
 ```
 
